@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="tests">
+
+<test name="chrome">
+<parameter name="browername" value="Chrome"/>
+ <classes>
+    <class name="test1.verificationofHomepage">
+     <methods>
+	<include name="To_clickon_TaskButton"/>
+	<include name="click_and_verify_userbutton"/>
+    </methods>
+  </class>
+ </classes>
+ </test> 
+	
+ <test name="firefox">
+ <parameter name="browername" value="FireFox"/>
+	  <classes>
+   <class name="test1.verificationofHomepage">
+     <methods>
+   <include name="To_clickon_TaskButton"/>
+	 </methods>
+     </class>
+	  </classes>
+  </test>
+  
+</suite> <!-- Suite -->
+
+
+

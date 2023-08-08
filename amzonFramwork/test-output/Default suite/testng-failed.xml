@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test1.verificationofHomepage">
+        <methods>
+          <include name="To_clickon_TaskButton"/>
+          <include name="lanchBrower"/>
+          <include name="To_click_and_verifiy_Reportbutton"/>
+          <include name="afterclass"/>
+          <include name="aftermethod"/>
+          <include name="click_and_verify_userbutton"/>
+          <include name="LoginintoApplication"/>
+          <include name="closeBrowser"/>
+          <include name="CreatePOMobjt"/>
+        </methods>
+      </class> <!-- test1.verificationofHomepage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
